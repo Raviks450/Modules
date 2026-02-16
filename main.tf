@@ -3,7 +3,7 @@ resource "google_storage_bucket" "my_gcs_bucket" {
   # This name must be globally unique across all of Google Cloud
   name          = var.bucket-name
   location      = var.location # Location cannot be changed after creation
-  storage_class = var.class # e.g., STANDARD, NEARLINE, COLDLINE, ARCHIVE
+  storage_class = var.storage_class # e.g., STANDARD, NEARLINE, COLDLINE, ARCHIVE
   
   # Optional: enables uniform bucket-level access for consistent permissions
   uniform_bucket_level_access = true 
