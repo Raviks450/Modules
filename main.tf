@@ -1,7 +1,6 @@
 # Create a new storage bucket
 resource "google_storage_bucket" "my_gcs_bucket" {
   # This name must be globally unique across all of Google Cloud
-  project       = var.project
   name          = var.bucket-name
   location      = var.location # Location cannot be changed after creation
   storage_class = var.storage_class # e.g., STANDARD, NEARLINE, COLDLINE, ARCHIVE
