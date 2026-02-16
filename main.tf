@@ -1,5 +1,5 @@
 # Create a new storage bucket
-resource "google_storage_bucket" "static" {
+resource "google_storage_bucket" "default" {
   # This name must be globally unique across all of Google Cloud
   name          = var.bucket-name
   location      = var.location # Location cannot be changed after creation
