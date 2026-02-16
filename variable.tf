@@ -10,4 +10,7 @@ variable "storage_class"{
 default = "STANDARD" # e.g., STANDARD, NEARLINE, COLDLINE, ARCHIVE
 }
 
+variable "project"{
+default = "your-gcp-project-id" 
+}
   
