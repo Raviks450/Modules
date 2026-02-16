@@ -11,7 +11,7 @@ default = "STANDARD" # e.g., STANDARD, NEARLINE, COLDLINE, ARCHIVE
 }
 
 variable "project"{
-default = "your-gcp-project-id" 
+default = "qwiklabs-gcp-02-f72a2e32e8fe" 
 }
 
 variable "region"{
