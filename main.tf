@@ -1,10 +1,3 @@
-provider "google" {
-  # Replace with your project ID
-  project = var.project
-  # Replace with your desired region (e.g., "us-central1" or "EU")
-  region  = var.region   
-}
-
 # Create a new storage bucket
 resource "google_storage_bucket" "static" {
   # This name must be globally unique across all of Google Cloud
