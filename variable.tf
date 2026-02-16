@@ -1,5 +1,5 @@
 variable "bucket-name"{
-default          = "my-unique-bucket-name" 
+default          = "ravi-bucket-name" 
 }
 
 variable "location"{
