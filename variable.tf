@@ -1,13 +1,13 @@
 variable "bucket-name"{
-name          = "my-unique-bucket-name" 
+default          = "my-unique-bucket-name" 
 }
 
 variable "location"{
-location      = "US" # Location cannot be changed after creation
+default     = "US" # Location cannot be changed after creation
 }
 
-variable "class"{
-storage_class = "STANDARD" # e.g., STANDARD, NEARLINE, COLDLINE, ARCHIVE
+variable "storage_class"{
+default = "STANDARD" # e.g., STANDARD, NEARLINE, COLDLINE, ARCHIVE
 }
 
   
